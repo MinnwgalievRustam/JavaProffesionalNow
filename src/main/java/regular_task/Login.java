@@ -1,8 +1,6 @@
 package regular_task;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -30,6 +28,7 @@ public class Login {
                 System.out.println("Wrong format password");
             } else {
                 list.add("Password: " + password);
+                Collections.sort(list);
             }
         }
     }
