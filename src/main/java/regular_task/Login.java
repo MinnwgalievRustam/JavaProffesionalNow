@@ -28,7 +28,6 @@ public class Login {
                 System.out.println("Wrong format password");
             } else {
                 list.add("Password: " + password);
-                Collections.sort(list);
             }
         }
     }
