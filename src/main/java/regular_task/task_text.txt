@@ -1,0 +1,3 @@
+Exercise
+Write a console application, be sure to register under "Login",
+consisting only of letters of the Latin alphabet, and a password consisting of numbers and symbols
